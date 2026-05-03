@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Padai Karo - AI-Powered Exam Preparation
 
-## Getting Started
+Padai Karo is an intelligent study assistant that helps students focus on what actually matters. By analyzing your syllabus and past question papers, it figures out which topics appear most frequently and generates a personalized study plan to maximize your exam score.
 
-First, run the development server:
+## 🎥 Video Demo : https://drive.google.com/file/d/1buJ5Z2hdHlh-mNzXrwew3HlWzEjwy_Wh/view?usp=drive_link
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Smart Insights:** Upload your syllabus and past papers, and the AI will tell you exactly which topics are high-priority.
+- **Coverage Analysis:** Automatically tracks which syllabus topics are covered in past exams, highlighting weak or missing areas.
+- **Personalized Study Planner:** Generates a day-by-day study schedule based on topic importance and the time you have available.
+- **AI Tutor Chat:** Ask questions directly from your uploaded materials and get instant, accurate answers.
+- **Quick Quizzes:** Generate custom multiple-choice quizzes from your study material to test your knowledge.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 How to Run Locally
 
-## Learn More
+1. **Clone the repository and install dependencies:**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Set up Environment Variables:**
+   Create a `.env` file in the root directory and add the following keys:
+   ```env
+   # MongoDB Database
+   MONGO_URI="your_mongodb_connection_string"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   # Cloudinary (For uploading PDFs/Images)
+   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="your_cloud_name"
+   CLOUDINARY_API_KEY="your_api_key"
+   CLOUDINARY_API_SECRET="your_api_secret"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   # Groq (For AI text generation)
+   GROQ_API_KEY="your_groq_api_key"
 
-## Deploy on Vercel
+   # Jina AI (For text embeddings)
+   JINA_API_KEY="your_jina_api_key"
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open the app:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
