@@ -2,9 +2,11 @@
 
 Padai Karo is an intelligent study assistant that helps students focus on what actually matters. By analyzing your syllabus and past question papers, it figures out which topics appear most frequently and generates a personalized study plan to maximize your exam score.
 
-## 🎥 Video Demo : https://drive.google.com/file/d/1buJ5Z2hdHlh-mNzXrwew3HlWzEjwy_Wh/view?usp=drive_link
+## 🎥 Video Demo : [Watch on Google Drive](https://drive.google.com/file/d/1buJ5Z2hdHlh-mNzXrwew3HlWzEjwy_Wh/view?usp=drive_link)
 
+## 🌐 Live Application
 
+[Add your deployed URL here]https://pdaii-karo.vercel.app/
 ## ✨ Features
 
 - **Smart Insights:** Upload your syllabus and past papers, and the AI will tell you exactly which topics are high-priority.
