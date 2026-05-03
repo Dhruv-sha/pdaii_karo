@@ -74,12 +74,7 @@ export default function Sidebar() {
         })}
       </nav>
 
-      <div className="mt-auto rounded-2xl border border-teal-100 bg-teal-50/50 p-5">
-        <h4 className="text-sm font-semibold text-teal-800 mb-1">Consistency is key</h4>
-        <p className="text-xs text-teal-600/80 leading-relaxed">
-          Small, focused daily study sessions will always beat last-minute cramming.
-        </p>
-      </div>
+
     </div>
   );
 }

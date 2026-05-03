@@ -22,13 +22,6 @@ export default function Home() {
         <div className="absolute bottom-1/4 -right-32 h-96 w-96 rounded-full bg-purple-200/50 blur-[120px]" />
 
         <div className="relative z-10 mx-auto max-w-4xl px-6 pt-12">
-          <div className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-teal-200 bg-teal-50 px-4 py-1.5 text-xs font-semibold text-teal-700">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
-            </span>
-            AI-Powered Exam Preparation
-          </div>
           <h1 className="mb-8 font-serif text-5xl font-medium tracking-tight md:text-7xl lg:text-8xl">
             Study smarter, <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-purple-600">not harder.</span>

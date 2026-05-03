@@ -145,15 +145,6 @@ export default function Dashboard() {
           </div>
           <TopicChart topics={data?.rankedTopics || []} />
         </Card>
-
-        <Card className="border-slate-200 shadow-sm">
-          <div>
-            <h3 className="text-lg font-bold text-slate-900 mb-4">
-              Focus Trend
-            </h3>
-          </div>
-          <TrendChart points={trendPoints} />
-        </Card>
       </div>
     </div>
   );

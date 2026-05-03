@@ -55,9 +55,7 @@ export default function Header() {
           )}
         </div>
 
-        <button className="flex h-10 w-10 items-center justify-center rounded-full border border-teal-200 bg-teal-50 text-sm font-bold text-teal-700 shadow-sm">
-          PK
-        </button>
+
       </div>
     </div>
   );
